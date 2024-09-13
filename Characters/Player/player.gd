@@ -30,7 +30,7 @@ func set_state(new_state: State) -> void:
 	if state != new_state:
 		state = new_state
 
-	print("STATE => ", State.keys()[state])
+	# print("STATE => ", State.keys()[state])
 
 func _jump() -> void:
 	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
