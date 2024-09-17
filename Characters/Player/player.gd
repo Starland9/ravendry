@@ -5,7 +5,7 @@ class_name Player
 @onready var anim = $AnimatedSprite2D
 
 const SPEED = 300.0
-const JUMP_VELOCITY = -400.0
+const JUMP_VELOCITY = -600.0
 
 var running_direction = 1
 var idle_direction = 0
